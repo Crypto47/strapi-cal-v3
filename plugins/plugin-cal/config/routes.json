@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/",
+      "handler": "plugin-cal.index",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/getMessage",
+      "handler": "plugin-cal.getMessage",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/postMessage",
+      "handler": "plugin-cal.postMessage",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

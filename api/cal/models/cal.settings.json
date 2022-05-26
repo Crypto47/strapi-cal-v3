@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cals",
+  "info": {
+    "name": "cal"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "data": {
+      "type": "json"
+    }
+  }
+}

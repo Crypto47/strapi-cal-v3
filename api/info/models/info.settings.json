@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "infos",
+  "info": {
+    "name": "info"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "data": {
+      "type": "json"
+    }
+  }
+}
